@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ADDRESS="your@mail.com"
+SCRIPTS_DIR="/root/scripts"
+APP="/root/scripts/syncdir/syncdir.sh"
+APP_DIR="/root/scripts/syncdir"
+WATCH_DIR="/var/spool/cron/crontabs"
+TMP_DIR="/root/scripts/$(hostname)-crontabs"
+LOG="/var/log/syncdir.log"
+ERROR_LOG="/var/log/syncdir_monit.err"
+INFO_LOG="/var/log/syncdir_monit.info"
